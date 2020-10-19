@@ -1,0 +1,310 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="Wienkartierung" version="3.2.3-Bonn">
+  <homePath path="" />
+  <title>Wienkartierung</title>
+  <autotransaction active="0" />
+  <evaluateDefaultValues active="0" />
+  <trust active="0" />
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties />
+    <layer-tree-layer expanded="1" checked="Qt::Checked" source="./Wienkartierung.db" providerKey="ogr" id="project_7695385473846354382_standortbewertung" name="Standortbewertung">
+      <customproperties />
+    </layer-tree-layer>
+  </layer-tree-group>
+  <snapping-settings type="1" mode="2" tolerance="12" intersection-snapping="0" enabled="0" unit="1">
+    <individual-layer-settings>
+      <layer-setting type="1" tolerance="12" units="1" id="project_7695385473846354382_standortbewertung" enabled="0" />
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations />
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>16.339181545430257</xmin>
+      <ymin>48.20966667614291</ymin>
+      <xmax>16.345454193635856</xmax>
+      <ymax>48.21475033983641</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0" open="true" name="Standortbewertung">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="project_7695385473846354382_standortbewertung" />
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks />
+  <mapViewDocks3D />
+  <projectlayers>
+    <maplayer minScale="1e+8" type="vector" simplifyMaxScale="1" refreshOnNotifyMessage="" simplifyDrawingHints="0" geometry="Point" simplifyDrawingTol="1" maxScale="0" refreshOnNotifyEnabled="0" labelsEnabled="0" simplifyAlgorithm="0" simplifyLocal="1" readOnly="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" autoRefreshEnabled="0">
+      <extent>
+        <xmin>16.31877568635979</xmin>
+        <ymin>48.19399003812527</ymin>
+        <xmax>16.359438997147027</xmax>
+        <ymax>48.22875818123283</ymax>
+      </extent>
+      <id>project_7695385473846354382_standortbewertung</id>
+      <datasource>dbname='./Wienkartierung.db' table='standortbewertung' (geometry) sql=</datasource>
+      <keywordList>
+        <value />
+      </keywordList>
+      <layername>Standortbewertung</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier />
+        <parentidentifier />
+        <language />
+        <type />
+        <title />
+        <abstract />
+        <contact>
+          <name />
+          <organization />
+          <position />
+          <voice />
+          <fax />
+          <email />
+          <role />
+        </contact>
+        <links />
+        <fees />
+        <encoding />
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" dimensions="2" minx="0" maxx="0" maxy="0" miny="0" maxz="0" minz="0" />
+          <temporal>
+            <period>
+              <start />
+              <end />
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">spatialite</provider>
+      <vectorjoins />
+      <layerDependencies />
+      <dataDependencies />
+      <legend type="default-vector" />
+      <expressionfields />
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default" />
+      </map-layer-style-manager>
+      <auxiliaryLayer />
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count" />
+        <property key="variableNames" />
+        <property key="variableValues" />
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="rowid">
+          <editWidget type="Hidden">
+            <config>
+              <Option />
+            </config>
+          </editWidget>
+        </field>
+        <field name="ID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option />
+            </config>
+          </editWidget>
+        </field>
+        <field name="Wertung">
+          <editWidget type="TextEdit">
+            <config>
+              <Option />
+            </config>
+          </editWidget>
+        </field>
+        <field name="lg_attach">
+          <editWidget type="Hidden">
+            <config>
+              <Option />
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="rowid" name="rowid" />
+        <alias index="1" field="ID" name="ID" />
+        <alias index="2" field="Wertung" name="Wertung" />
+        <alias index="3" field="lg_attach" name="lg_attach" />
+      </aliases>
+      <excludeAttributesWMS />
+      <excludeAttributesWFS />
+      <defaults>
+        <default field="rowid" expression="" applyOnUpdate="0" />
+        <default field="ID" expression="" applyOnUpdate="0" />
+        <default field="Wertung" expression="" applyOnUpdate="0" />
+        <default field="lg_attach" expression="" applyOnUpdate="0" />
+      </defaults>
+      <constraints>
+        <constraint unique_strength="1" constraints="3" exp_strength="0" field="rowid" notnull_strength="1" />
+        <constraint unique_strength="0" constraints="0" exp_strength="0" field="ID" notnull_strength="0" />
+        <constraint unique_strength="0" constraints="0" exp_strength="0" field="Wertung" notnull_strength="0" />
+        <constraint unique_strength="0" constraints="0" exp_strength="0" field="lg_attach" notnull_strength="0" />
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="rowid" desc="" />
+        <constraint exp="" field="ID" desc="" />
+        <constraint exp="" field="Wertung" desc="" />
+        <constraint exp="" field="lg_attach" desc="" />
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="project_7695385473846354382_standortbewertung-default-action" key="Canvas" />
+        <actionsetting type="1" shortTitle="Attachments" action='from PyQt5.Qt import QWidget,QGridLayout,QPushButton,QLabel,QPixmap,QApplication&#10;from PyQt5 import QtCore,QtWidgets&#10;import os&#10;from functools import partial&#10;import json&#10;import sys&#10;from PyQt5.QtCore import QSize&#10;import mimetypes&#10;from builtins import print&#10;from PyQt5.QtWidgets import QHBoxLayout,QScrollArea,QSizePolicy&#10;from qgis.gui import QgsMessageBar&#10;class AttachmentsGrid(QWidget):&#10; def __init__(self):&#10;  super().__init__()&#10;  self._initUI()&#10; def _initUI(self):&#10;  projectDir=os.path.dirname(str(qgis.core.QgsProject.instance().fileName()))&#10;  attachmentStr=&apos;[% lg_attach %]&apos;&#10;  if attachmentStr is None or len(attachmentStr)==0 or attachmentStr==&apos;[]&apos;:&#10;   qgis.utils.iface.messageBar().pushMessage("Info","No attachment",level=Qgis.Info,duration=2)&#10;   return&#10;  attachmentsJ=json.loads(attachmentStr)&#10;  attachmentsP=self.getLocations(projectDir,attachmentsJ)&#10;  sizePolicy=QSizePolicy(QSizePolicy.Preferred,QSizePolicy.Preferred)&#10;  self.setSizePolicy(sizePolicy)&#10;  hLayout=QHBoxLayout()&#10;  scrollArea=QScrollArea()&#10;  scrollAreaWidget=QWidget()&#10;  grid=QGridLayout()&#10;  scrollArea.setWidgetResizable(True)&#10;  scrollArea.setWidget(scrollAreaWidget)&#10;  scrollAreaWidget.setLayout(grid)&#10;  hLayout.addWidget(scrollArea)&#10;  self.setLayout(hLayout)&#10;  self.attach_dict={}&#10;  iconSize=(96,96)&#10;  names=[]&#10;  buttons=[]&#10;  labels=[]&#10;  if len(attachmentsP)==0:&#10;   return&#10;  for(num,attachm)in enumerate(attachmentsP):&#10;   filename=os.path.basename(attachm)&#10;   self.attach_dict[filename]=os.path.normpath(attachm)&#10;   names.append(filename)&#10;   buttons.append(&apos;button_&apos;+str(num))&#10;  for(position,name)in enumerate(names):&#10;   path=self.attach_dict[name]&#10;   fileInfo=QtCore.QFileInfo(path)&#10;   iconProvider=IconProvider()&#10;   icon=iconProvider.icon(fileInfo)&#10;   if self.isImage(path):&#10;    pixmap=QPixmap(self.attach_dict[name])&#10;   else:&#10;    pixmap=icon.pixmap(icon.actualSize(QSize(iconSize[0],iconSize[1])))&#10;   label=QLabel()&#10;   label.setPixmap(pixmap.scaled(iconSize[0],iconSize[1],QtCore.Qt.KeepAspectRatio))&#10;   labels.append(label)&#10;   button=QPushButton(name)&#10;   buttons[position]=button&#10;   button.setIcon(icon)&#10;   self.my_connect(buttons[position].clicked,self.openfile,buttons[position].text())&#10;   grid.addWidget(label,0,position,)&#10;   grid.addWidget(button,1,position)&#10;  self.move(300,150)&#10;  self.setWindowTitle(&apos;Attachments&apos;)&#10;  self.show()&#10; def openfile(self,name):&#10;  os.startfile(self.attach_dict[name])&#10; def my_connect(self,signal,slot,key,):&#10;  signal.connect(partial(slot,key))&#10; def getLocations(self,projectDir,attachmentsDic):&#10;  paths=[]&#10;  for attachment in attachmentsDic:&#10;   if "path" not in attachment:&#10;    qgis.utils.iface.messageBar().pushCritical("Error","Ooops, the attachments settins isn&apos;t valid")&#10;    raise Exception("The json key &apos;path&apos; doesn&apos;t exist in attachment json")&#10;   path=os.path.join(projectDir,attachment[&apos;path&apos;])&#10;   if not os.path.exists(path):&#10;    print(&apos;Can not find attachment in location: &apos;+path)&#10;    qgis.utils.iface.messageBar().pushMessage("Warning","Attachment doesn&apos;t exist, "+attachment[&apos;path&apos;],level=Qgis.Warning,duration=4)&#10;    continue&#10;   paths.append(path)&#10;  return paths&#10; def isImage(self,filePath):&#10;  mimetype=mimetypes.guess_type(filePath,strict=False)&#10;  return &apos;image&apos; in mimetype[0]&#10;class IconProvider(QtWidgets.QFileIconProvider):&#10; def icon(self,fileInfo):&#10;  return QtWidgets.QFileIconProvider.icon(self,fileInfo)&#10;if __name__==&apos;__main__&apos;:&#10; ex=AttachmentsGrid()&#10;&#10;' isEnabledOnlyWhenEditable="0" capture="0" icon="" id="project_7695385473846354382_standortbewertung-attachments-action" name="Open LocusGIS attachments" notificationMessage="">
+          <actionScope id="Feature" />
+          <actionScope id="Canvas" />
+        </actionsetting>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column type="field" width="-1" hidden="0" name="rowid" />
+          <column type="field" width="-1" hidden="0" name="ID" />
+          <column type="field" width="-1" hidden="0" name="Wertung" />
+          <column type="field" width="-1" hidden="1" name="lg_attach" />
+          <column type="actions" width="-1" hidden="1" />
+        </columns>
+      </attributetableconfig>
+      <editform tolerant="1" />
+      <editforminit />
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="0" name="rowid" />
+        <field editable="1" name="ID" />
+        <field editable="1" name="Wertung" />
+        <field editable="0" name="lg_attach" />
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="rowid" />
+        <field labelOnTop="0" name="ID" />
+        <field labelOnTop="0" name="Wertung" />
+        <field labelOnTop="0" name="lg_attach" />
+      </labelOnTop>
+      <widgets />
+      <conditionalstyles>
+        <rowstyles />
+        <fieldstyles />
+      </conditionalstyles>
+      <expressionfields />
+      <previewExpression>rowid</previewExpression>
+      <mapTip />
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="project_7695385473846354382_standortbewertung" />
+  </layerorder>
+  <properties>
+    <PAL>
+      <SearchMethod type="int">0</SearchMethod>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
+    </PAL>
+    <Gui>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measurement>
+      <AreaUnits type="QString" />
+      <DistanceUnits type="QString" />
+    </Measurement>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+  </properties>
+  <visibility-presets />
+  <transformContext />
+  <projectMetadata>
+    <identifier />
+    <parentidentifier />
+    <language />
+    <type />
+    <title />
+    <abstract />
+    <links />
+    <author>Locus GIS - 1.5.0</author>
+    <creation>2020-04-19T13:16:17</creation>
+  </projectMetadata>
+  <Annotations />
+  <Layouts />
+</qgis>
